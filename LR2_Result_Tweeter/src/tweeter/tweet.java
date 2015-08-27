@@ -17,11 +17,8 @@ public class tweet {
 	RequestToken requestToken;
 
 	public tweet() {
-		//String consumerKey = "RcXkwUIEHoO7wQot0Tvo7deRq";
-		//String consumerSecret = "mC0muB8bBHdXdZyrpdxAMm851esHc5bSgNq1zVgV0rEf4Gj5Kw";
 
 		twitter = TwitterFactory.getSingleton();
-		//twitter.setOAuthConsumer(consumerKey, consumerSecret);
 		twitter.setOAuthAccessToken(accessToken);
 	}
 
